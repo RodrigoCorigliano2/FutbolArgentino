@@ -1,0 +1,332 @@
+:root {
+    --background-color: #eff6e0;
+    --headcolor: #aec3b0;
+    --footer: #ebebeb;
+    --tipografia: "Lato", sans-serif;
+}
+
+#header {
+    background-color: var(--headcolor)
+}
+
+.headerindex {
+    display: flex;
+    padding: 0%;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--headcolor)
+}
+
+
+ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+#body {
+    margin: 0%;
+    padding: 0%;
+    font-family: var(--tipografia);
+    background-color: var(--background-color)
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer {
+    display: flex;
+    background-color: var(--footer);
+}
+
+.footercontain {
+    width: 100%;
+    justify-content: space-between;
+    margin: 3%;
+    display: flex
+}
+
+.volverarriba {
+    padding: 0.4%;
+    background-color: #aec3b0;
+    border-radius: 9%;
+    border: solid #8da38f ;
+}
+
+.volverarriba :hover{
+    background-color: #677a69;
+    border: solid #aec3b0 ;
+    border-radius: 9%;
+}
+
+.volverarriba a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.headerlista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8%;
+}
+
+.pelota {
+    display: flex;
+    width: 10%;
+}
+
+.divindex {
+    width: 100%
+}
+
+.pelota a img {
+    margin: 0 20px;
+    display: flex;
+    width: 70px;
+}
+
+#header div li a {
+    text-decoration: none;
+    font-size: 110%;
+    color: black;
+    font-weight: 650;
+}
+
+#header div li {
+    background-color: rgb(207, 204, 204);
+    border-radius: 9%;
+    padding: 5px
+}
+
+.main {
+    margin-top: 80px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.section1 {
+    height: 100vh;
+    margin-top: 5%;
+}
+
+.section1 div {
+    display: flex;
+    margin: 0;
+    text-align: start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1 div p {
+    display: flex;
+    width: 60%;
+    margin-left: 0;
+    margin-top: 20vh;
+    font-size: 110%;
+}
+
+.section1 div img {
+    width: 30%;
+    margin-top: 20vh;
+}
+
+.art2 {
+    display: grid;
+    grid-template-areas: 
+    "copa2 copa1 copa4 copa3 copa5"
+    "ca1 mun1 f1  conf1 pan1"
+    "ca2 mun2 f2 conf1 pan1 "
+    "ca3 mun3 f2 conf1 pan1"
+    "ca4 mun3 f2 conf1 pan1"
+    "ca5 mun3 f2 conf1 pan1"
+    "ca6 mun3 f2 conf1 pan1"
+    "ca7 mun3 f2 conf1 pan1"
+    "ca8 mun3 f2 conf1 pan1"
+    "ca9 mun3 f2 conf1 pan1"
+    "ca10 mun3 f2 conf1 pan1"
+    "ca11 mun3 f2 conf1 pan1"
+    "ca12 mun3 f2 conf1 pan1"
+    "ca13 mun3 f2 conf1 pan1"
+    "ca14 mun3 f2 conf1 pan1"
+    "ca15 mun3 f2 conf1 pan1"
+    "ca16 mun3 f2 conf1 pan1"
+    ;
+
+    justify-content: space-around;
+    border: solid rgb(92, 90, 90);
+    grid-template-rows: 2fr 1fr ;
+    background-color: beige;
+}
+
+
+.section2 {
+    display: grid;
+    margin-bottom: 8%;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-areas: 
+    "art2 art1";
+    grid-template-columns: 55% 40%
+    
+}
+
+section article div img {
+    width: 80%;
+}
+.art1 {
+    grid-area: art1;
+}
+
+.art2 {
+    grid-area: art2;
+}
+
+
+.copa1 {
+    grid-area: copa1;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.mun1 {
+    grid-area: mun1;
+}
+
+.mun2 {
+    grid-area: mun2;
+}
+
+.mun3 {
+    grid-area: mun3;
+}
+
+.copa2 {
+    grid-area: copa2;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.ca1 {
+    grid-area: ca1;
+
+}
+
+.ca2 {
+    grid-area: ca2;
+}
+
+.ca3 {
+    grid-area: ca3;
+}
+
+.ca4 {
+    grid-area: ca4;
+}
+
+.ca5 {
+    grid-area: ca5;
+}
+
+.ca6 {
+    grid-area: ca6;
+}
+
+.ca7 {
+    grid-area: ca7;
+}
+
+.ca8 {
+    grid-area: ca8;
+}
+
+.ca9 {
+    grid-area: ca9;
+}
+
+.ca10 {
+    grid-area: ca10;
+}
+
+.ca11 {
+    grid-area: ca11;
+}
+
+.ca12 {
+    grid-area: ca12;
+}
+
+.ca13 {
+    grid-area: ca13;
+}
+
+.ca14 {
+    grid-area: ca14;
+}
+.ca15 {
+    grid-area: ca15;
+}
+
+.ca16 {
+    grid-area: ca16;
+}
+
+.copa3 {
+    grid-area: copa3;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.conf1 {
+    grid-area: conf1;
+}
+
+.copa4 {
+    grid-area: copa4;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.f1 {
+    grid-area: f1;
+}
+.f2 {
+    grid-area: f2;
+}
+
+.copa5 {
+    grid-area: copa5;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.pan1 {
+    grid-area: pan1;
+}
+
+
+.headerjug {
+    margin-top: 5%;
+}
+
+.headerpe {
+    margin-top: 5%;
+}
+
+.headercontacto {
+    margin-top: 5%;
+}
+
+.headercompe {
+    margin-top: 5%;
+}
+
