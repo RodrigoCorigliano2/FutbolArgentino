@@ -415,6 +415,51 @@ section article div img {
     margin-bottom: 10%;
 }
     
+.bodyjugadores {
+    width: 100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/messi.jpg)
+}
+
+.headerjug {
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+.h2jug {
+    margin-left: 1%;
+}
+
+.uljug {
+    margin-top: 15%;
+    margin-left: 4%;
+    font-size: 200%;
+    font-weight: 600;
+}
+
+.footerjug {
+    margin-bottom: 0;
+    margin-top: 20%;
+    margin-left: 190%;
+}
+
+.botonvolverjug {
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 2%;
+    margin-left: 92%;
+    border-radius: 10%;
+}
+
+.botonvolverjug a {
+    text-decoration: none;
+    padding: 3%;
+    color: black;
+    font-weight: 600;
+}
+
 
 @media (max-width: 768px) {
     .art2 {
@@ -587,3 +632,5 @@ section article div img {
     }
         
 }
+
+
