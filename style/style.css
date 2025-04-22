@@ -420,7 +420,7 @@ section article div img {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/img/messi.jpg)
+    background-image: url(../img/messi.jpg)
 }
 
 .headerjug {
