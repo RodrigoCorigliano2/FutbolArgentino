@@ -19,22 +19,48 @@
 
 <body id="body">
 
-    <header id="header" class="headerindex">
-        <div class="pelota">
-            <a href="index.html">
-                <img src="/img/pelota.png">
-            </a>
-        </div>
+    <header class="header">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">Futbol Argentino</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/pages/jugadores.html">Jugadores
+                                    mas importantes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="/pages/principalesequipos.html">Principales Equipos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="/pages/competicionesactuales.html">Competiciones Actuales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/pages/contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                    </div>
 
-        <div class="divindex">
-            <ul class="headerlista">
-                <li><a href="/pages/contacto.html">Contacto</a></li>
-                <li><a href="/pages/jugadores.html">Jugadores mas importantes</a></li>
-                <li><a href="/pages/principalesequipos.html">Principales Equipos</a></li>
-                <li><a href="/pages/competicionesactuales.html">Competiciones Actuales</a></li>
-            </ul>
-        </div>
+        </nav>
     </header>
+
 
     <main id="main" class="main">
         <section class="section1">
@@ -58,6 +84,7 @@
         <h2>Titulos obtenidos</h2>
 
         <section class="section2">
+            
             <article class="art1">
                 <div>
                     <img src="/img/mundial.jpg" width="400" alt="Foto copa del mundo">

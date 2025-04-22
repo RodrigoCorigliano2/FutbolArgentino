@@ -57,55 +57,18 @@ h1 {
     padding: 0.4%;
     background-color: #aec3b0;
     border-radius: 9%;
-    border: solid #8da38f ;
+    border: solid #8da38f;
 }
 
-.volverarriba :hover{
+.volverarriba :hover {
     background-color: #677a69;
-    border: solid #aec3b0 ;
+    border: solid #aec3b0;
     border-radius: 9%;
 }
 
 .volverarriba a {
     text-decoration: none;
     color: black;
-}
-
-
-.headerlista {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-    border-radius: 8%;
-}
-
-.pelota {
-    display: flex;
-    width: 10%;
-}
-
-.divindex {
-    width: 100%
-}
-
-.pelota a img {
-    margin: 0 20px;
-    display: flex;
-    width: 70px;
-}
-
-#header div li a {
-    text-decoration: none;
-    font-size: 110%;
-    color: black;
-    font-weight: 650;
-}
-
-#header div li {
-    background-color: rgb(207, 204, 204);
-    border-radius: 9%;
-    padding: 5px
 }
 
 .main {
@@ -142,29 +105,29 @@ h1 {
 
 .art2 {
     display: grid;
-    grid-template-areas: 
-    "copa2 copa1 copa4 copa3 copa5"
-    "ca1 mun1 f1  conf1 pan1"
-    "ca2 mun2 f2 conf1 pan1 "
-    "ca3 mun3 f2 conf1 pan1"
-    "ca4 mun3 f2 conf1 pan1"
-    "ca5 mun3 f2 conf1 pan1"
-    "ca6 mun3 f2 conf1 pan1"
-    "ca7 mun3 f2 conf1 pan1"
-    "ca8 mun3 f2 conf1 pan1"
-    "ca9 mun3 f2 conf1 pan1"
-    "ca10 mun3 f2 conf1 pan1"
-    "ca11 mun3 f2 conf1 pan1"
-    "ca12 mun3 f2 conf1 pan1"
-    "ca13 mun3 f2 conf1 pan1"
-    "ca14 mun3 f2 conf1 pan1"
-    "ca15 mun3 f2 conf1 pan1"
-    "ca16 mun3 f2 conf1 pan1"
+    grid-template-areas:
+        "copa2 copa1 copa4 copa3 copa5"
+        "ca1 mun1 f1  conf1 pan1"
+        "ca2 mun2 f2 conf1 pan1 "
+        "ca3 mun3 f2 conf1 pan1"
+        "ca4 mun3 f2 conf1 pan1"
+        "ca5 mun3 f2 conf1 pan1"
+        "ca6 mun3 f2 conf1 pan1"
+        "ca7 mun3 f2 conf1 pan1"
+        "ca8 mun3 f2 conf1 pan1"
+        "ca9 mun3 f2 conf1 pan1"
+        "ca10 mun3 f2 conf1 pan1"
+        "ca11 mun3 f2 conf1 pan1"
+        "ca12 mun3 f2 conf1 pan1"
+        "ca13 mun3 f2 conf1 pan1"
+        "ca14 mun3 f2 conf1 pan1"
+        "ca15 mun3 f2 conf1 pan1"
+        "ca16 mun3 f2 conf1 pan1"
     ;
 
     justify-content: space-around;
     border: solid rgb(92, 90, 90);
-    grid-template-rows: 2fr 1fr ;
+    grid-template-rows: 2fr 1fr;
     background-color: beige;
 }
 
@@ -174,15 +137,15 @@ h1 {
     margin-bottom: 8%;
     justify-content: space-around;
     align-items: center;
-    grid-template-areas: 
-    "art2 art1";
+    grid-template-areas:
+        "art2 art1";
     grid-template-columns: 55% 40%
-    
 }
 
 section article div img {
     width: 80%;
 }
+
 .art1 {
     grid-area: art1;
 }
@@ -272,6 +235,7 @@ section article div img {
 .ca14 {
     grid-area: ca14;
 }
+
 .ca15 {
     grid-area: ca15;
 }
@@ -299,6 +263,7 @@ section article div img {
 .f1 {
     grid-area: f1;
 }
+
 .f2 {
     grid-area: f2;
 }
@@ -338,12 +303,12 @@ section article div img {
 }
 
 .divredes {
-  margin-top: 10%;
+    margin-top: 10%;
 }
 
 .headercontacto {
     margin-bottom: 3%;
-    display: flex;  
+    display: flex;
     justify-content: space-around;
 }
 
@@ -352,7 +317,7 @@ section article div img {
     text-decoration: none;
     margin-bottom: 2%;
     margin-left: 92%;
-
+    border-radius: 10%;
 }
 
 .botonvolver a {
@@ -409,4 +374,216 @@ section article div img {
     padding: 2.8%;
     border-radius: 10%;
     font-weight: 600;
+}
+
+
+.torneos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+}
+
+.competencia1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    background-color: #aec3b0;
+    padding: 2%;
+    border-radius: 10%;
+
+}
+
+
+.competencia2 img {
+    width: 180px;
+}
+.competencia2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    background-color: #aec3b0;
+    padding: 2%;
+    border-radius: 10%;
+}
+
+.sectionformato p {
+    margin-bottom: 10%;
+}
+    
+
+@media (max-width: 768px) {
+    .art2 {
+        flex-direction: column;
+    }
+
+    .section2 .art2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .volverarriba {
+        height: 25%;
+    }
+
+    .footercontain {
+        align-items: center;
+    }
+
+    .footercontain div {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width: 1024px) {
+    .art2 {
+        flex-direction: column;
+    }
+
+    .section2 .art2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .header nav div a {
+        font-size: 200%;
+    }
+
+
+    .headerpe {
+        margin-top: 30%;
+        font-size: 300%;
+    }
+
+    .mainequipos {
+        height: 100vh;
+        width: 100vh;
+    }
+
+    .escudosclase {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .divboca {
+        margin-bottom: 10%;
+        width: 100%;
+        font-size: 200%;
+    }
+
+    .divsanlorenzo {
+        margin-bottom: 10%;
+        width: 100%;
+        font-size: 200%;
+    }
+
+    .divracing {
+        margin-bottom: 10%;
+        width: 100%;
+        font-size: 200%;
+    }
+
+    .botonvolver {
+        display: flex;
+        flex-direction: column;
+        margin-left: 700px;
+        margin-top: 1800px;
+        font-size: 170%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .headercontacto {
+        margin-top: 35%;
+        margin-left: 3%;
+        justify-content: flex-start;
+        font-size: 170%;
+    }
+    
+    .maincontacto div h3 {
+        font-size: 170%;
+        font-weight: 600;
+        margin-left: 3%;
+    }
+
+    .maincontacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divredes {
+        font-size: 150%;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .headercontacto {
+        margin-top: 35%;
+        margin-left: 3%;
+        justify-content: flex-start;
+        font-size: 170%;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .headercompe {
+        margin-top: 25%;
+    }
+
+    .torneos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .competencia1 {
+        margin-bottom: 7%;
+        width: 100%;
+        font-size: 230%;
+        padding: 15%;
+        border-radius: 0;
+        margin-left: 10%;
+    }
+
+    .competencia2 {
+        margin-bottom: 7%;
+        width: 100%;
+        font-size: 230%;
+        padding: 15%;
+        border-radius: 0;
+        margin-left: 10%;
+    }
+
+    .sectionformato {
+        font-size: 200%;
+    }
+
+    .sectionformato h2 {
+        font-size: 150%;
+        font-weight: 700;
+    }
+
+    .sectionformato p {
+        margin-bottom: 0;
+    }
+        
 }
